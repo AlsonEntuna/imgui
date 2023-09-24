@@ -1,5 +1,5 @@
 project "ImGui"
-    kind "SharedLib"
+    kind "StaticLib" -- might change to dll soon.
     language "C++"
     cppdialect "C++20"
     
