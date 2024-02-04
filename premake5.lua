@@ -1,5 +1,5 @@
 project "ImGui"
-    kind "StaticLib" -- might change to dll soon.
+    kind "StaticLib"
     language "C++"
     cppdialect "C++20"
     
