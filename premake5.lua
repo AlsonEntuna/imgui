@@ -8,8 +8,8 @@ project "ImGui"
     local buildname = "%{prj.name}_%{cfg.buildcfg}"
     local solutionlocations = "../../solutions/%{prj.name}"
     
-    local builddir = (solutionlocations.. "/bin/" .. buildname)
-	local intermediate = (solutionlocations.. "/intermediate/" .. buildname)
+    local builddir = ("../../bin/" .. buildname)
+	local intermediate = ("../../intermediate/")
     
     targetdir (builddir)
     objdir (intermediate)
